@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  h1= title
+  p #{title}
+  //- p yo tengo {{4 + 6}} años
+  
+  //- button.btn-primary#btn submit
+  br
+  .row
+  .cold-md-2
+  div.col-md-8(ng-controller='BooksController' ,ng-cloak)
+    div(ng-repeat="b in book", ng-hide="b.agotado")
+        h1 {{b.name }}
+        h3 {{b.autor }} - {{b.price}} USD
+        p {{b.descripcion}} 
+        button.btn-primary(type="button", ng-if="book.canPurchase") comprar
+        hr
+        .col-md-2
+        hr
+        br
+        br
+    
+
+        //- p hola :{{msg}}
+      //- input(type='text', ng-model='msg')
+      //- button.btn-primary#btn(type="button", ng-click='msg="ola"') submit
