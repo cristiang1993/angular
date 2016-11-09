@@ -6,7 +6,7 @@ var book = [
         "descripcion": "Cien años de soledad es una novela del escritor colombiano Gabriel García Márquez, ganador del Premio Nobel de Literatura en 1982",
         "price": 5,
         "canPurchase": false,
-        "agotado": true
+        "agotado": false
     },
     {
         "year": " 1304 ",
@@ -15,7 +15,7 @@ var book = [
         "descripcion": "es un poema escrito por Dante Alighieri. Se desconoce la fecha exacta en que fue escrito aunque las opiniones más reconocidas aseguran que el Infierno pudo ser compuesto entre 1304 y 1307 o 1308, el Purgatorio de 1307 o 1308 a 1313 o 1314 y por último, el Paraíso de 1313 o 1314 a 1321, fecha del fallecimiento del poeta. Libro más famoso de su autor, es una de las obras fundamentales de la transición del pensamiento medieval (teocentrista) al renacentista (antropocentrista). Es considerada la obra maestra de la literatura italiana y una de las cumbres de la",
         "price": 5,
         "canPurchase": false,
-        "agotado": true
+        "agotado": false
     },
     {
         "year": " non ullamcorper velit sem at magna. ",

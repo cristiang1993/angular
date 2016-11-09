@@ -5,20 +5,19 @@ html(ng-app='Angularapp')
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='/stylesheets/vendor.min.css')
   body
-
-  //- nav.navbar.navbar-default
-  //- .container-fluid
-  //-   .navbar-header
-
-.container
-  h2.Angular
-  .panel.panel-default
-    .panel-heading Prueba Interfaz
-    .panel-body
-
-
-
+    nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse
+      .container-fluid
+        .navbar-header        
+          a.navbar-brand(href='#') AngularApp
     block content
+
+ .navbar.navbar-default.navbar-fixed-bottom
+  .container
+    p.navbar-text.pull-left
+      | © 2014 - Site Built By Mr. M.
+      a(href='http://tinyurl.com/tbvalid', target='_blank') HTML 5 Validation
+ 
+
     script(src='/javascripts/vendor.min.js')
     script(src='/javascripts/jsonBooks.js')
     script(src='/javascripts/app.js')
